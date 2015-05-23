@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "system",
+        "noImplicitAny": true,
+        "outDir": "../output/",
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5"
+    },
+    "files": [
+        "./index.ts",
+        "./magic-custom-element-name-magic.ts"
+    ],
+    "compileOnSave": false
+}

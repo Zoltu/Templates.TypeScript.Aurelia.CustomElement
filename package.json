@@ -1,0 +1,45 @@
+{
+  "name": "magic_package_name_magic",
+  "version": "1.0.0",
+  "description": "magic_package_description_magic",
+  "main": "output/sample/index.html",
+  "scripts": {
+    "jspm": "jspm",
+    "gulp": "gulp",
+    "prepublish": "jspm install && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magic_github_repository_owner_magic/magic_github_repository_name_magic"
+  },
+  "author": "magic_package_author_magic",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/magic_github_repository_owner_magic/magic_github_repository_name_magic/issues"
+  },
+  "homepage": "https://github.com/magic_github_repository_owner_magic/magic_github_repository_name_magic",
+  "devDependencies": {
+    "browser-sync": "^2.7.3",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-typescript": "^2.7.5",
+    "jspm": "^0.15.6",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.0",
+    "typescript": "git://github.com/microsoft/TypeScript.git#master",
+    "vinyl-paths": "^1.0.0"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "aurelia-framework": "github:aurelia/framework@^0.11.0",
+      "css": "github:systemjs/plugin-css@^0.1.11"
+    },
+    "devDependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.12.0",
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
